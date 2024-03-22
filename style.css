@@ -107,7 +107,7 @@ footer {
 aside{position: fixed; 
  z-index: 2;
  right: 0; 
-top: 125px;
+top: 280px;
   display: flex; flex-direction: column; 
 align-items: center; width: 100px;   color: beige; background-color: cadetblue ;  }
 .post11{position: relative;}
@@ -144,7 +144,16 @@ position: relative;
  top: 8px;}
  .article-but:hover{ transform: scale(1.1); transition: 0.3s;} 
  .social img:hover{transform: scale(1.2); transition: 0.3s;}
- .post:hover{font-style: italic; transform: scale(1.1); transition: 0.3s;}
+ .post:hover{ transform: scale(1.1); transition: 0.3s;}
  aside p{padding: 6px;}
  .button:hover{transition: 0.3s; transform: scale(1.1);}
 .nav-link:hover{transform: scale(1.1); transition: 0.3s;}
+article h2:hover{text-align: right;}
+article:hover{text-align: right;} 
+h1::before{ content: '';
+display: inline-block;
+background-size: cover;
+background-image: url('https://cdn.pixabay.com/photo/2013/07/12/13/51/help-147419_640.png');
+width: 55px;
+height: 55px;position: relative; top: 20px; 
+}
